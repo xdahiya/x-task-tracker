@@ -149,11 +149,11 @@ export default function App() {
 
       {/* dashboard if user logged in else login page */}
       {user ? (
-        <div className="h-[80vh] md:h-[90vh] overflow-hidden w-full">
+        <div className="overflow-hidden w-full">
           <div className=" transition-colors duration-300">
             <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
               <div className="space-y-4">
-                <div className="min-h-[10vh] md:min-h-[20vh] w-full overflow-hidden space-y-4">
+                <div className="w-full overflow-hidden space-y-4">
                   <div className="flex flex-col md:flex-row justify-between w-full">
                     {/* task search input */}
                     <Card className="relative w-full md:w-80 p-0">
@@ -244,7 +244,7 @@ export default function App() {
                 </div>
 
                 {/* task list */}
-                <div className="h-[60vh] md:h-[65vh] overflow-y-scroll w-full scrollbar-hidden">
+                <div className="overflow-y-scroll w-full scrollbar-hidden">
                   <TaskList
                     tasks={filteredTasks}
                     categories={categories}

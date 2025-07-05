@@ -36,7 +36,7 @@ export default function Login({ onLogin }: LoginProps) {
 
   return (
     <>
-      <div className="overflow-hidden relative w-full h-[90vh] flex justify-center items-center">
+      <div className="overflow-hidden relative w-full  flex justify-center items-center">
         <div className="absolute top-[-200px] left-[-100px] w-[300px] h-[300px] rounded-full bg-primary opacity-30 blur-3xl z-0 pointer-events-none" />
 
         <div className="absolute top-[-200px] right-[-100px] w-[300px] h-[300px] rounded-full bg-primary opacity-30 blur-3xl z-0 pointer-events-none" />
@@ -66,7 +66,7 @@ export default function Login({ onLogin }: LoginProps) {
           </div>
         </div>
 
-        <div className="lg:flex-1/2 relative h-[90vh] w-full overflow-hidden flex items-center justify-start md:justify-center p-4 flex-col">
+        <div className="lg:flex-1/2 relative  w-full overflow-hidden flex items-center justify-start md:justify-center p-4 flex-col">
           <Card className="relative z-10 w-full max-w-md shadow-xl  backdrop-blur-sm">
             <CardHeader className="text-center space-y-4">
               <div className="mx-auto w-full h-auto rounded-full flex items-center justify-center">
