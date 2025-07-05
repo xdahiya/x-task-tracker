@@ -51,7 +51,7 @@ function Header({
 
   return (
     <>
-      <header className="bg-card h-[10vh] sticky top-0 w-full  shadow-sm border-b ">
+      <header className="bg-card h-[10vh] z-50 sticky top-0 w-full  shadow-sm border-b ">
         <div className="max-w-7xl h-full mx-auto px-4 sm:px-6 lg:px-8">
           <div className="h-full flex justify-between items-center">
             <div className="flex items-center space-x-4">

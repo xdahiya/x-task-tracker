@@ -66,7 +66,7 @@ export default function Login({ onLogin }: LoginProps) {
           </div>
         </div>
 
-        <div className="lg:flex-1/2 relative h-[90vh] w-full overflow-hidden flex items-center justify-center p-4 flex-col">
+        <div className="lg:flex-1/2 relative h-[90vh] w-full overflow-hidden flex items-center justify-start md:justify-center p-4 flex-col">
           <Card className="relative z-10 w-full max-w-md shadow-xl  backdrop-blur-sm">
             <CardHeader className="text-center space-y-4">
               <div className="mx-auto w-full h-auto rounded-full flex items-center justify-center">
