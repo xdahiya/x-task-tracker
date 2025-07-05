@@ -57,3 +57,11 @@ The app includes advanced features like category-based organization, dynamic fil
 https://x-task-tracker.vercel.app
 
 ## 🖼 Screenshots
+#### Login Page Light Mode
+![Login Page Light Mode](https://x-task-tracker.vercel.app/show1-1.png)
+#### Dashboard Page Light Mode
+![Dashboard Page Light Mode](https://x-task-tracker.vercel.app/show1-2.png)
+#### Login Page Dark Mode
+![Login Page Dark Mode](https://x-task-tracker.vercel.app/show2-1.png)
+#### Dashboard Page Dark Mode
+![Dashboard Page Dark Mode](https://x-task-tracker.vercel.app/show2-2.png)
